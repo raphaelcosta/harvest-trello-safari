@@ -19,7 +19,14 @@ $(function() {
     if ($window.hasClass('clearfix') && $window.find('a.button-link.js-move-card').length) {
       console.log('modal shown');
       var $actionsList = $window.find('a.button-link.js-move-card').parent();
-      $actionsList.prepend($('<a>').addClass('button-link js-harvest').text('Test'));
+      var $trackTimeButton = $('<a>').addClass('button-link js-track-time').text('Track time');
+
+      $trackTimeButton.click(function(e) {
+        console.log('time track click');
+      });
+
+      $actionsList.prepend($trackTimeButton);
+
     }
 
 

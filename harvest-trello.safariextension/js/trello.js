@@ -137,7 +137,7 @@
       return TrelloProfile;
 
     })();
-
+    console.log("Harvest for Trello extension. Github: http://github.com/gsholtz/harvest-trello-safari")
     return new TrelloProfile();
   })();
 

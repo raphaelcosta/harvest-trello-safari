@@ -10,7 +10,7 @@
         this.projectNameSelector = "title:first";
         this.boardNameSelector = ".board-name";
         this.cardNameSelector = ".window-title-text";
-        this.actionSelector = ".other-actions .clearfix";
+        this.actionSelector = ".other-actions .u-clearfix";
         this.platformLoaded = false;
         this.loadHarvestPlatform();
         this.addTimerWhenUrlChanges();
